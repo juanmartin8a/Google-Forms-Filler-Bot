@@ -45,7 +45,7 @@ try:
     while numberOfTimes < 25:
         bot = formBot()
         bot.mathHW()
-        umberOfTimes = numberOfTimes + 1
+        numberOfTimes = numberOfTimes + 1
     else:
         print("process ended")
 except KeyboardInterrupt:
